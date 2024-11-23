@@ -1,0 +1,13 @@
+{
+  "name": "binary-search-util-aditya_m011",
+  "version": "1.0.0",
+  "description": "A simple utility for performing binary search on a sorted array.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "keywords": ["binary", "search", "algorithm", "utility", "npm"],
+  "author": "Your Name",
+  "license": "MIT"
+}
