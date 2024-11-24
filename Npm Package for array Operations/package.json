@@ -1,0 +1,12 @@
+{
+  "name": "array-utility-hofs-aditya_m011",
+  "version": "1.0.0",
+  "description": "A package of higher-order functions for arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Add test cases!'"
+  },
+  "keywords": ["array", "utility", "higher-order-functions", "javascript"],
+  "author": "Your Name",
+  "license": "MIT"
+}
