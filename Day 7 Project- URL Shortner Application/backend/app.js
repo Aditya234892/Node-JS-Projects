@@ -20,7 +20,7 @@ app.post('/shorten', (req, res) => {
   
   urlDatabase[shortCode] = originalUrl;
 
-  const shortUrl = `http://localhost:5000/${shortCode}`;
+  const shortUrl = `https://node-js-projects.onrender.com/${shortCode}`;
 
   res.json({ shortUrl });
 });

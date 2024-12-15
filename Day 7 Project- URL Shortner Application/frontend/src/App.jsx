@@ -12,7 +12,7 @@ function App() {
     setShortUrl('');
 
     try {
-      const response = await axios.post('http://localhost:5000/shorten', { originalUrl });
+      const response = await axios.post('https://node-js-projects.onrender.com/shorten', { originalUrl });
       setShortUrl(response.data.shortUrl);
     } catch (err) {
       setError(err.response?.data?.error || 'Failed to shorten URL');
